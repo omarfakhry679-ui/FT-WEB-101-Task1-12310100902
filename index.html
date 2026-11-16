@@ -1,0 +1,71 @@
+<!-- Name:Omar Ahmed Fakhry Ayad | Student ID:2251036662 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Ahmad | Profile Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Omar Ahmad</h1>
+    <nav class="bar">
+      <span class="bar-name">Omar Ahmad</span>
+      <div class="bar-links">
+        <a href="#about">About</a>
+        <a href="#cards">Interests</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="profile-section">
+      <img src="images/me.jpg" alt="Portrait photo of Omar Ahmad" class="profile-photo">
+      <p>Computer Science student specializing in Bioinformatics at New Mansoura University.</p>
+    </section>
+
+    <section id="cards" class="cards-row">
+      <article class="card">
+        <h2>Skills</h2>
+        <p>HTML, CSS, JavaScript, C#, Python, and Git version control.</p>
+      </article>
+      <article class="card">
+        <h2>Hobbies</h2>
+        <p>Stealth action gaming, football analysis, and home bodyweight training.</p>
+      </article>
+      <article class="card">
+        <h2>Bioinformatics</h2>
+        <p>Applying computational methods and programming to biological data.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Leave a Message</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+      <p id="greeting-msg" class="greeting-msg"></p>
+    </section>
+
+    <div class="theme-control">
+      <button type="button" id="theme-toggle">Toggle Dark Mode</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Omar Ahmad. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
